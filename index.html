@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>GOLDEN GYM</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+        <a class="navbar-brand" href="#">GOLDEN GYM</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Inicio</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Nosotros</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav> <main class="container my-5">
+
+    <div class="row align-items-center">
+
+        <div class="col-md-6">
+            <h1 class="display-4 fw-bold">GOLDEN GYM</h1>
+
+            <p class="lead">
+                 ¡Transforma tu cuerpo, fortalece tu mente!
+
+            <p>
+                <p>
+    Entrena con nosotros y alcanza tus metas con nuestros
+    programas de entrenamiento y áreas especializadas.
+</p>
+
+            </p>
+
+       <a href="#contacto" class="btn btn-success">
+    Únete ahora
+</a>
+
+
+        </div>
+
+        <div class="col-md-6 text-center">
+            <div class="bg-light p-5 rounded">
+                <h2>Mi proyecto</h2>
+                <p class="mb-0">
+                    Contenido principal de la aplicación
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+</main> <section class="container mb-5">
+
+    <h2 class="text-center mb-4">Nuestros servicios</h2>
+
+    <div class="row g-4">
+
+        <div class="col-md-4">
+            <div class="card h-100"> <img src="assets/img/persona3.jpg"
+     class="card-img-top"
+     style="height: 250px; object-fit: cover;"
+     alt="Persona entrenando">
+
+
+                <div class="card-body text-center">
+                    <h5 class="card-title">Entrenamiento Personal</h5>
+                    <p class="card-text">
+                        Entrena con un programa personalizado y alcanza tus objetivos.
+                    </p>
+                    <a href="#" class="btn btn-primary">
+                        Ver más
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card h-100"> <img src="assets/img/persona2.jpg"
+     class="card-img-top"
+     style="height: 250px; object-fit: cover;"
+     alt="Persona entrenando">
+
+
+                <div class="card-body text-center">
+                    <h5 class="card-title">Musculación</h5>
+                    <p class="card-text">
+                        Mejora tu fuerza y desarrolla tu masa muscular.
+                    </p>
+                    <a href="#" class="btn btn-primary">
+                        Ver más
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card h-100"> <img src="assets/img/persona1.jpg"
+     class="card-img-top"
+     style="height: 250px; object-fit: cover;"
+     alt="Persona entrenando">
+
+
+                <div class="card-body text-center">
+                    <h5 class="card-title">Cardio</h5>
+                    <p class="card-text">
+                        Mejora tu resistencia y condición física.
+                    </p>
+                    <a href="#" class="btn btn-primary">
+                        Ver más
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section> <section id="contacto" class="container my-5">
+
+    <h2 class="text-center mb-4">Únete a Golden Gym</h2>
+
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+
+            <form id="formulario">
+
+    <div class="mb-3">
+        <label for="nombre" class="form-label">
+            Nombre
+        </label>
+
+        <input type="text"
+               class="form-control"
+               id="nombre"
+               placeholder="Escribe tu nombre">
+    </div>
+
+    <div class="mb-3">
+        <label for="correo" class="form-label">
+            Correo electrónico
+        </label>
+
+        <input type="email"
+               class="form-control"
+               id="correo"
+               placeholder="ejemplo@correo.com">
+    </div>
+
+    <div class="mb-3">
+        <label for="mensaje" class="form-label">
+            Mensaje
+        </label>
+
+        <textarea class="form-control"
+                  id="mensaje"
+                  rows="4"
+                  placeholder="Escribe tu mensaje"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-success">
+        Enviar
+    </button>
+
+</form>
+
+</div>
+
+
+</section>
+ <footer class="bg-dark text-white text-center py-4">
+
+    <div class="container">
+
+        <p class="mb-1">
+            GOLDEN GYM
+
+        <p class="mb-0">
+            © 2026 Todos los derechos reservados.
+        </p>
+
+    </div>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    document.getElementById("formulario").addEventListener("submit", function(event) {
+        event.preventDefault();
+
+        alert("¡Gracias por contactar a Golden Gym!");
+    });
+</script>
+
+</body>
+</html>
+
+
